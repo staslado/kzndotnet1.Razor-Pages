@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC Template", "MVC Template", "{9A280A5F-431C-40E8-9524-0257CFBD9C22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCTemplateApp", "MVC Template\MVCTemplateApp\MVCTemplateApp\MVCTemplateApp.csproj", "{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor Pages Template", "Razor Pages Template", "{F19C702F-737D-49B6-838F-96250E773055}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesTemplateApp", "Razor Pages Template\RazorPagesTemplateApp\RazorPagesTemplateApp.csproj", "{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor Pages. Page Models", "Razor Pages. Page Models", "{5477958C-BDAB-4024-A2E9-E3163188568D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesDefaultApp.PageModels", "Razor Pages. Page Models\RazorPagesDefaultApp\RazorPagesDefaultApp.PageModels.csproj", "{6D551275-BD04-4B42-B1CB-3B7C6873899E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModels", "Razor Pages. Page Models\PageModels\PageModels.csproj", "{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor Pages. Demo", "Razor Pages. Demo", "{571160D8-10CD-47A4-9AE6-4620F229826C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUD (before updates)", "CRUD (before updates)", "{14FCAB61-7222-466F-B382-5638BD9E4990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesDemoApp.CRUD", "Razor Pages. Demo\CRUD\RazorPagesDemoApp.Initial\RazorPagesDemoApp.CRUD.csproj", "{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "Razor Pages. Demo\CRUD\DAL\DAL.csproj", "{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUD (after updates)", "CRUD (after updates)", "{129DE7A9-DC48-4D5E-BF21-B30295AC0333}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "Razor Pages. Demo\CRUD-after\DAL\DAL.csproj", "{6984AA3E-8001-4EA2-9463-09581DC7822B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesDemoApp.CRUD", "Razor Pages. Demo\CRUD-after\RazorPagesDemoApp.Initial\RazorPagesDemoApp.CRUD.csproj", "{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor Pages. Template with Auth", "Razor Pages. Template with Auth", "{4C408E1C-F31A-44CB-B1B6-995C6691E81C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesDefaultApp.Auth", "Razor Pages. Template with Auth\RazorPagesDefaultApp.Auth\RazorPagesDefaultApp.Auth.csproj", "{B5B326E8-6062-4753-AE3C-CA334101C9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D551275-BD04-4B42-B1CB-3B7C6873899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D551275-BD04-4B42-B1CB-3B7C6873899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D551275-BD04-4B42-B1CB-3B7C6873899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D551275-BD04-4B42-B1CB-3B7C6873899E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6984AA3E-8001-4EA2-9463-09581DC7822B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6984AA3E-8001-4EA2-9463-09581DC7822B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6984AA3E-8001-4EA2-9463-09581DC7822B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6984AA3E-8001-4EA2-9463-09581DC7822B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B326E8-6062-4753-AE3C-CA334101C9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B326E8-6062-4753-AE3C-CA334101C9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B326E8-6062-4753-AE3C-CA334101C9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B326E8-6062-4753-AE3C-CA334101C9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BDA2C58-07CD-477A-8B1E-9F3DA49F6722} = {9A280A5F-431C-40E8-9524-0257CFBD9C22}
+		{3570BBF7-E23D-4A39-8A47-A4FE807AEBC7} = {F19C702F-737D-49B6-838F-96250E773055}
+		{6D551275-BD04-4B42-B1CB-3B7C6873899E} = {5477958C-BDAB-4024-A2E9-E3163188568D}
+		{0CE27ADB-1ED4-4BDB-9353-B0DE154169A1} = {5477958C-BDAB-4024-A2E9-E3163188568D}
+		{14FCAB61-7222-466F-B382-5638BD9E4990} = {571160D8-10CD-47A4-9AE6-4620F229826C}
+		{1F6CFAAE-D71D-4880-B99D-EC2500C21CCB} = {14FCAB61-7222-466F-B382-5638BD9E4990}
+		{A1E04AB7-D1D3-4910-914B-43BB74AC1BDC} = {14FCAB61-7222-466F-B382-5638BD9E4990}
+		{129DE7A9-DC48-4D5E-BF21-B30295AC0333} = {571160D8-10CD-47A4-9AE6-4620F229826C}
+		{6984AA3E-8001-4EA2-9463-09581DC7822B} = {129DE7A9-DC48-4D5E-BF21-B30295AC0333}
+		{5C598D51-2BC8-4731-8B6A-BFE10CF2A2DC} = {129DE7A9-DC48-4D5E-BF21-B30295AC0333}
+		{B5B326E8-6062-4753-AE3C-CA334101C9BC} = {4C408E1C-F31A-44CB-B1B6-995C6691E81C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F74A93D-FA22-4FE6-A87C-439A1701E242}
+	EndGlobalSection
+EndGlobal

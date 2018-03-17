@@ -1,0 +1,76 @@
+﻿@page "{priority?}"
+@using DAL.Models;
+@model RazorPagesDemoApp.CRUD.Pages.Jobs.IndexModel
+
+@{
+    ViewData["Title"] = $"List of {RouteData.Values["priority"]} jobs";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model.IsMessageExists)
+{
+    <p><div class="alert alert-success">@Model.Message</div></p>
+}
+
+<p>
+    <a asp-page="Create">Create New Job</a>
+    @*<!a href="@Url.Page("Create")">CreateWithUrl</!a>*@
+</p>
+
+@if (!Model.IsJobsAvailable)
+{
+    <p>No Jobs in Database</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Jobs[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Jobs[0].Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Jobs[0].Priority)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Jobs[0].IsActive)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Jobs[0].Assignee)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Jobs)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Priority)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsActive)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Assignee)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
